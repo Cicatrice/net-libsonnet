@@ -1,7 +1,7 @@
 local d = import 'doc-util/main.libsonnet';
 
 {
-  '#': d.pkg(
+  '#':: d.pkg(
     name='ip',
     url='github.com/jsonnet-libs/xtd/ip.libsonnet',
     help='`ip` implements helper functions for ip addresses and networks calculation',
